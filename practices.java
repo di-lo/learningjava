@@ -90,9 +90,11 @@ public class learningjava {
     for(int i = 0; i < grades.length; i++){ // grades.length = 3
       System.out.println(grades[i]); // 98 // 100 // 75
     }
-    int[][] lotterycard = {{20, 7, 15}, {8, 7, 19}, {7, 13, 47}}    
-    for(int i = 0; i < 3; i++){
-      for(int j = 0; i < 3; i++){
+    int[][] lotterycard = {{20, 7, 15}, 
+                           {8, 7, 19}, 
+                           {7, 13, 47}};    
+    for(int i = 0; i < 3; i++){ // i means row //nested loops
+      for(int j = 0; i < 3; i++){ // j means column
         System.out.println(lotterycard[i][j]); // 20 - 7 - 15 - 8 - 7 - 19 - 7 - 13 - 47
       }
     }    
