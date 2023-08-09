@@ -23,6 +23,15 @@ public class LearningJava{ //starts with capitals
     String pizza2; // declaration
     pizza2 = "bbq"; // assignment
   }
+
+  static void nestedLoops(){
+    for(int i = 0; i < 5; i++){
+      for(int j = 0; j < 5; j++){
+        System.out.println(i + ", " + j);
+        break; // 0, 0 - 1, 0 - 2, 0 - 3, 0 - 4, 0
+      }
+    }
+  }
   
 }
 
