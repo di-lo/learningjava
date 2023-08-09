@@ -86,8 +86,11 @@ public class learningjava {
     for(int i = 0; i < 3; i++){ // 3 indicates how much we want to print
       System.out.println("Hello"); // Hello x3
     }
-    int grades[] = {98, 100, 75}    
-    for(int i = 0; i < grades.length; i++){ // grades.length = 3
+    int grades[] = {98, 100, 75, 50, 85}    
+    for(int i = 0; i < grades.length; i++){ // grades.length = 5
+      if(grades[i] == 50){ // when i = 3
+        break;
+      }
       System.out.println(grades[i]); // 98 // 100 // 75
     }
     int[][] lotterycard = {{20, 7, 15}, 
