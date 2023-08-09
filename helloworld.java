@@ -3,10 +3,17 @@ public class LearningJava{ //starts with capitals
   static final int MAX_AGE = 100; // naming constant variables
   public static void main(String[] args){ // args (arguments) stores arguments that are given
     sayHi(); // Hello World!
+    multiply(5, 100); // 500
+    multiply(2, 3); // 6
+    multiply(6, 8); // 48
   }
 
   static void sayHi(){ // method // void is used for not returning
     System.out.println("Hello World!");
+  }
+
+  static void multiply(int a, int b){
+    System.out.println(a * b);
   }
 
   static void conditionalOpt(){
