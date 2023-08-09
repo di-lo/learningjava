@@ -1,4 +1,4 @@
-public class learningjava{
+public class LearningJava{
 
   public static void main(String[] args){ // args (arguments) stores arguments that are given
     sayHi(); // Hello World!
