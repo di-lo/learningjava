@@ -3,16 +3,24 @@ public class LearningJava{ //starts with capitals
   static final int MAX_AGE = 100; // naming constant variables
   public static void main(String[] args){ // args (arguments) stores arguments that are given
     sayHi(); // Hello World!
+    String sayinghi = returnSayHi("hello world!); // HELLO WORLD!
     multiply(5, 100); // 500
-    multiply(2, 3); // 6
-    multiply(6, 8); // 48
+    int multiplying = multiply(4, 5); // 20
   }
 
   static void sayHi(){ // method // void is used for not returning
     System.out.println("Hello World!");
   }
 
+  static String returnSayHi(String s){
+    return s.toUpperCase();
+  }
+
   static void multiply(int a, int b){
+    return a * b;
+  }
+
+  static int returnMultiply(int a, int b){
     System.out.println(a * b);
   }
 
@@ -37,6 +45,14 @@ public class LearningJava{ //starts with capitals
         System.out.println(i + ", " + j);
         break; // 0, 0 - 1, 0 - 2, 0 - 3, 0 - 4, 0
       }
+    }
+  }
+
+  static void openFile(){
+    File file = new File("nameofthefile"); // suppose the file's name is "nameofthefile"
+    Scanner scan = new Scanner(file);
+    while(scan.hasNextLine()){
+      System.out.println(scan.nextLine()); // print out all of the file
     }
   }
   
