@@ -55,6 +55,21 @@ public class LearningJava{ //starts with capitals
       System.out.println(scan.nextLine()); // print out all of the file
     }
   }
+
+  static void useSwitch(){ // instead of if/else
+    String dog = "pug";
+
+    switch(dog){
+      case "pug":
+        System.out.println("small dog"); // small dog
+        break;
+      case "great dane":
+        System.out.println("large dog"); // String dog = "great dane";
+        break;
+      default:
+        System.out.println("try a different dog name"); // String dog = "pomeranian";
+    }
+  }
   
 }
 
