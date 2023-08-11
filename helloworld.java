@@ -70,6 +70,14 @@ public class LearningJava{ //starts with capitals
         System.out.println("try a different dog name"); // String dog = "pomeranian";
     }
   }
+
+  static void createList(){
+    ArrayList fruitlist = new ArrayList();
+    fruitlist.add("Mango");
+    fruitlist.add("Strawberry");
+    fruitlist.add("Watermelon");
+    System.out.println(fruitlist); // [Mango, Strawberry, Watermelon]
+  }
   
 }
 
