@@ -78,6 +78,27 @@ public class LearningJava{ //starts with capitals
     fruitlist.add("Watermelon");
     System.out.println(fruitlist); // [Mango, Strawberry, Watermelon]
   }
+
+  static void tryCatch(){
+    Scanner scan = new Scanner(System.in);
+    System.out.println("What'S your favorite number?");
+
+    try{
+      int usernumber = scan.nextInt(); // 7
+      System.out.println(usernumber); // 7
+    } catch(Exception e){ // seven
+        System.out.println("Sorry, please enter a number:"); // Sorry, please enter a number:
+    }
+  }
+
+  static void hashMap(){
+    HashMap<String, String> passwords = new HashMap<String, String>(); // HashMap<key, value> name = new HashMap<key, value>();
+    passwords.put("bobbyjoe" = "FluffyP0nies");
+    passwords.put("singlelady" = "AloeVera?");
+    passwords.put("coolguy" = "15673");
+
+    System.out.println(passwords); // {bobbyjoe=FluffyP0nies, singlelady=AloeVera?, coolguy=15673}
+  }
   
 }
 
