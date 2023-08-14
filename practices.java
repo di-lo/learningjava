@@ -93,6 +93,11 @@ public class learningjava {
       }
       System.out.println(grades[i]); // 98 // 100 // 75
     }
+
+    for (int grade : grades){ // for each loop
+      System.out.println(grade); // 98 \n 100 \n 75 \n 50 \n 85
+    }
+    
     int[][] lotterycard = {{20, 7, 15}, 
                            {8, 7, 19}, 
                            {7, 13, 47}};    
