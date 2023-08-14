@@ -88,7 +88,7 @@ public class LearningJava{ //starts with capitals
       System.out.println(usernumber); // 7
     } catch(Exception e){ // seven
         System.out.println("Sorry, please enter a number:"); // Sorry, please enter a number:
-    }
+    } // finally
   }
 
   static void hashMap(){
