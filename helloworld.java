@@ -99,7 +99,36 @@ public class LearningJava{ //starts with capitals
 
     System.out.println(passwords); // {bobbyjoe=FluffyP0nies, singlelady=AloeVera?, coolguy=15673}
   }
+
+  static void stackVideoGames(){
+    // Super Monkey Ball
+    // Guitar Hero
+    // Call of Duty
+    Stack<String> videogames = new Stack<String>();
+    videogames.add("Call of Duty"); // bottom
+    videogames.add("Guitar Hero");
+    videogames.add("Super Monkey Ball"); // to top
+    System.out.println(videogames.pop()); // top         // Super Monkey Ball
+    System.out.println(videogames.pop());                // Guitor Hero
+    System.out.println(videogames.pop()); // to bottom   // Call of Duty
+  }
+
+  static void nameLine(){
+    // Ahmet
+    // Buse
+    // Cem
+    Queue<String> nameline = new LinkedList<String>();
+    nameline.add("Ahmet"); // 1
+    nameline.add("Buse"); // 2
+    nameline.add("Cem"); // 3
+    System.out.println(nameline.poll()); // Ahmet
+    System.out.println(nameline.poll()); // Buse
+    System.out.println(nameline.poll()); // Cem
+  }
   
 }
 
-
+// 1. private: accessible in the same file
+// 2. default: accessible  in the same package 
+// 3. protected: accessible  in the same package; accessible in all packages w/ "extend" E.g. otherpackage extend package1{
+// 4. public: accessible  in all packages
